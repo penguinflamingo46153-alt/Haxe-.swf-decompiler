@@ -1,0 +1,14 @@
+[package]
+name = "haxedecomp"
+version = "0.1.0"
+edition = "2021"
+authors = ["haxedecomp authors"]
+description = "Haxe SWF & AVM2 Decompiler ported to Rust"
+
+[lib]
+name = "haxedecomp"
+path = "src/lib.rs"
+
+[[bin]]
+name = "haxedecomp"
+path = "src/main.rs"
